@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Baimai</title>
+    <title>Unity WebGL Player | Baimai</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas"></canvas>
+      <canvas id="unity-canvas" width=1280 height=700></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Baimai -> Click for full screen</div>
+        <div id="unity-build-title">Baimai</div>
       </div>
     </div>
     <script>
@@ -58,12 +58,12 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/Build-webgl.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Build-webgl.data.unityweb",
-        frameworkUrl: buildUrl + "/Build-webgl.framework.js.unityweb",
-        codeUrl: buildUrl + "/Build-webgl.wasm.unityweb",
+        dataUrl: buildUrl + "/Build-webgl.data",
+        frameworkUrl: buildUrl + "/Build-webgl.framework.js",
+        codeUrl: buildUrl + "/Build-webgl.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "Thesis-Project",
+        companyName: "Thesis",
+        productName: "Baimai",
         productVersion: "1.0",
         showBanner: unityShowBanner,
       };
