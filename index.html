@@ -10,7 +10,7 @@
   </head>
   <body>
     <div id="unity-container">
-      <canvas id="unity-canvas"></canvas>
+      <canvas id="unity-canvas" width=1280 height=720 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -57,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Build-webgl.loader.js";
+      var loaderUrl = buildUrl + "/BuildWebGL.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Build-webgl.data",
-        frameworkUrl: buildUrl + "/Build-webgl.framework.js",
-        codeUrl: buildUrl + "/Build-webgl.wasm",
+        dataUrl: buildUrl + "/BuildWebGL.data",
+        frameworkUrl: buildUrl + "/BuildWebGL.framework.js",
+        codeUrl: buildUrl + "/BuildWebGL.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Thesis",
         productName: "Baimai",

@@ -1,9 +1,9 @@
 const cacheName = "Thesis-Baimai-1.0";
 const contentToCache = [
-    "Build/Build-webgl.loader.js",
-    "Build/Build-webgl.framework.js",
-    "Build/Build-webgl.data",
-    "Build/Build-webgl.wasm",
+    "Build/BuildWebGL.loader.js",
+    "Build/BuildWebGL.framework.js",
+    "Build/BuildWebGL.data",
+    "Build/BuildWebGL.wasm",
     "TemplateData/style.css"
 
 ];
